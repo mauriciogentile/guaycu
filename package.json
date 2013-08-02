@@ -1,0 +1,31 @@
+{
+  "name": "guaycu",
+  "subdomain": "maclaurin.kanto",
+  "scripts": {
+    "start": "app.js"
+  },
+  "version": "0.0.1-9",
+  "engines": {
+    "node": "0.8.x"
+  },
+  "dependencies": {
+    "express": "~3.0.6",
+    "jade": "~0.27.7",
+    "path": "~0.4.9"
+  },
+  "gitHead": "2519e9362c85f753640188992dd3d6326635103e",
+  "readmeFilename": "README.md",
+  "description": "guaycu\r ======",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mauriciogentile/guaycu"
+  },
+  "keywords": [
+    "guaycu",
+    "club",
+    "social"
+  ],
+  "author": "Mauricio Gentile",
+  "license": "BSD"
+}

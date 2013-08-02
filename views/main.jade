@@ -1,0 +1,56 @@
+extends layout
+
+block content
+	header.site-header.clearfix
+	    .navbar.navbar-inverse.navbar-fixed-top
+	        .navbar-inner
+	          .container
+	            button.btn.btn-navbar(type='button', data-toggle='collapse', data-target='.nav-collapse')
+	              span.icon-bar
+	              span.icon-bar
+	              span.icon-bar
+	            h1
+	              a(href='#splash', title='Partido De La Red') Partido De La Red
+	            .social
+	              a.flaticon.social.facebook(target='_blank', href='http://facebook.com/partidodelared', title='')
+	              a.flaticon.social.twitter(target='_blank', href='http://twitter.com/partidodelared', title='')
+	            ul.nav.nav-collapse.collapse
+	              li.hide
+	                a(href='#splash', title='') Somos Red
+	              li
+	                a(href='#argentina', title='') Propuesta
+	              li
+	                a(href='#democracia', title='') Democracia
+	              li
+	                a(href='#manifiesto', title='') Manifiesto
+	              li
+	                a(href='#quienes-somos', title='') Pares
+	              li.active
+	                a(href='#colaborar', title='') Colaborar
+	              li
+	                a(href='http://wiki.partidodelared.org/index.php/Página_principal', target='_blank') Wiki
+	              li
+	                a(href='http://blog.partidodelared.org', target='_blank') Blog
+	section#splash.splash.section(style='height: 289px;')
+    	.section-title
+        .section-content(style='opacity: 1;')
+          p
+            img(src='images/logo.png')
+          h1 VOTÁ IDEAS, NO PERSONAS
+          p.description
+            | El Partido de la Red es un partido político que propone mejorar la democracia aprovechando las virtudes de Internet. Queremos que tu opinión sea escuchada: todo porteño podrá participar en nuestra plataforma online, y lo que decidamos entre todos es lo que nuestros legisladores votarán en la Legislatura.
+          p.description Para presentarnos en las elecciones 2013, necesitamos 4000 adhesiones. 
+          .countdown-container
+            strong Nos faltan 
+            span 0
+            span 1
+            span 2
+            span 5
+            strong adhesiones
+          a.btn.btn-kickstarter(href='http://wiki.partidodelared.org/index.php/D%C3%B3nde_firmar_como_Adherente', target='_blank') Sumate y firmá tu adhesión
+          a.share-twitter(target='_blank', href='')
+            span.flaticon.social.twitter
+            span Compartilo en Twitter
+      a.arrow-down(href='#argentina')
+        i
+include footer
