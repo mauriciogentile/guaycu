@@ -11,5 +11,5 @@ exports.services = function(req, res, next) {
 };
 
 exports.home = function(req, res, next) {
-	res.render("welcome");
+	res.render("main");
 };
