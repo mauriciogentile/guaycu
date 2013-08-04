@@ -1,8 +1,11 @@
 doctype 5
 html
-	include header
+	head
+		title Bootstrap 101 Template
+		link(rel="stylesheet", href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css")
+		link(rel="stylesheet", href="/css/custom.css")
 	body
-		include nav
+		include header
 		block content
 		script(type='text/javascript', src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js")
 		script(type='text/javascript', src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.2.1/js/bootstrap.min.js")

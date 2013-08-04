@@ -19,7 +19,7 @@ a {
 }
 body {
   font-family: "ff-tisa-web-pro";
-  background: #059ebd url("../images/bg-splash.jpg") left bottom fixed;
+  background: #059ebd url("../images/bg-home.jpg") left bottom fixed;
   background-size: cover;
   -webkit-font-smoothing: antialiased;
 /* Fix for webkit rendering */
@@ -215,7 +215,7 @@ section.section .section-title .description {
 section.section .section-title .btn {
   color: #333;
 }
-section.section.splash {
+section.section.home {
   color: #fff;
   height: 800px;
   overflow: hidden;
@@ -226,11 +226,11 @@ section.section.splash {
   text-align: center;
   width: 100%;
 }
-section.section.splash img {
+section.section.home img {
   height: 70px;
 /*margin-bottom: 10px;*/
 }
-section.section.splash .section-title {
+section.section.home .section-title {
   width: 100%;
   margin: auto;
   padding: 40px;
@@ -238,13 +238,13 @@ section.section.splash .section-title {
   vertical-align: middle;
   padding-top: 70px;
 }
-section.section.splash .section-title .section-content {
+section.section.home .section-title .section-content {
   opacity: 0;
   animation: fadeIn ease-in 1;
   animation-fill-mode: forwards;
   animation-duration: 1s;
 }
-section.section.splash .section-title h1 {
+section.section.home .section-title h1 {
   color: #fff;
   font-weight: 900;
   font-size: 36px;
@@ -253,13 +253,13 @@ section.section.splash .section-title h1 {
   letter-spacing: 2px;
   margin-bottom: 0;
 }
-section.section.splash .section-title .description {
+section.section.home .section-title .description {
   font-size: 18px;
   padding: 0px;
   width: 700px;
   margin: 20px auto 20px auto;
 }
-section.section.splash .section-title .btn {
+section.section.home .section-title .btn {
   margin-bottom: 20px;
   color: rgba(0,0,0,0.9);
   margin: 0 14px;
@@ -268,31 +268,31 @@ section.section.splash .section-title .btn {
   color: #fff;
   text-align: center;
 }
-section.section.splash .section-title .btn:hover {
+section.section.home .section-title .btn:hover {
   background-color: #fff;
   color: #333;
   border-color: #fff;
 }
-section.section.splash .section-title .btn.btn-kickstarter {
+section.section.home .section-title .btn.btn-kickstarter {
   border-color: #ffec0a;
   background-color: #ffec0a;
   color: #565004;
 }
-section.section.splash .section-title .btn.btn-kickstarter:hover {
+section.section.home .section-title .btn.btn-kickstarter:hover {
   background-color: #fff;
   border-color: #fff;
   color: #222;
 }
-section.section.splash .section-title .countdown-container {
+section.section.home .section-title .countdown-container {
   margin: 20px 0 40px 0;
 }
-section.section.splash .section-title .countdown-container strong {
+section.section.home .section-title .countdown-container strong {
   display: inline-block;
   padding: 20px 10px;
   font-weight: normal;
   font-size: 18px;
 }
-section.section.splash .section-title .countdown-container span {
+section.section.home .section-title .countdown-container span {
   background: #fff;
   color: #333;
   display: inline-block;
@@ -303,19 +303,19 @@ section.section.splash .section-title .countdown-container span {
   margin-bottom: -24px;
   box-shadow: 0 -27px 0 #f1f1f1 inset;
 }
-section.section.splash .section-title .btn.btn2 {
+section.section.home .section-title .btn.btn2 {
   color: #fff;
 }
-section.section.splash .section-title .share-twitter {
+section.section.home .section-title .share-twitter {
   color: #fff;
   font-family: brandon-grotesque;
   text-transform: uppercase;
   margin-left: 20px;
 }
-section.section.splash .section-title .share-twitter:Hover {
+section.section.home .section-title .share-twitter:Hover {
   text-decoration: none;
 }
-section.section.splash .arrow-down {
+section.section.home .arrow-down {
   height: 36px;
   background-color: #01203b;
   display: block;
@@ -328,29 +328,29 @@ section.section.splash .arrow-down {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
-section.section.splash .arrow-down i {
+section.section.home .arrow-down i {
   background: url("../images/icon-arrow-down.png") no-repeat center;
   width: 20px;
   height: 10px;
   display: block;
   margin: 14px auto;
 }
-section.section.splash .arrow-down:hover {
+section.section.home .arrow-down:hover {
   opacity: 1;
 }
-section.section.videos-section {
+section.section.gallery {
   overflow: hidden;
-  background: #fff;
+  background: transparent;
   text-align: center;
 }
-section.section.videos-section .modal {
+section.section.gallery .modal {
   width: 560px;
   background: #000;
 }
-section.section.videos-section .modal .modal-body {
+section.section.gallery .modal .modal-body {
   padding: 0;
 }
-section.section.videos-section a.btn.read-manifiesto {
+section.section.gallery a.btn.read-manifiesto {
   display: inline-block;
   border: 2px solid #333;
   padding: 12px 20px;
@@ -361,16 +361,16 @@ section.section.videos-section a.btn.read-manifiesto {
   margin: 0 20px;
   margin-top: 60px;
 }
-section.section.videos-section a.btn.read-manifiesto:hover {
+section.section.gallery a.btn.read-manifiesto:hover {
   background-color: #333;
   color: #fff;
 }
-section.section.videos-section .videos {
+section.section.gallery .videos {
   margin: auto;
   text-align: center;
   padding-left: 20px;
 }
-section.section.videos-section .videos .video {
+section.section.gallery .videos .video {
   width: 248px;
   height: 150px;
   margin: 0 20px 20px 0;
@@ -380,13 +380,13 @@ section.section.videos-section .videos .video {
   background-size: cover;
   position: relative;
 }
-section.section.videos-section .videos .video span {
+section.section.gallery .videos .video span {
   position: absolute;
   bottom: 10px;
   left: 10px;
   color: #fff;
 }
-section.section.videos-section .videos .video i {
+section.section.gallery .videos .video i {
   opacity: 0;
   background: rgba(5,158,189,0.4) url("../images/icon-play.png") center no-repeat;
   background-size: 20%;
@@ -397,81 +397,82 @@ section.section.videos-section .videos .video i {
   left: 0;
   -webkit-transition: opacity 0.7s;
 }
-section.section.videos-section .videos .video:hover i {
+section.section.gallery .videos .video:hover i {
   opacity: 1;
 }
-section.section.videos-section .videos .video.guido {
+section.section.gallery .videos .video.guido {
   background-image: url("../images/videos/guido.png");
 }
-section.section.videos-section .videos .video.pia {
+section.section.gallery .videos .video.pia {
   background-image: url("../images/videos/pia.png");
 }
-section.section.videos-section .videos .video.lucas {
+section.section.gallery .videos .video.lucas {
   background-image: url("../images/videos/lucas.png");
 }
-section.section.videos-section .videos .video.martin {
+section.section.gallery .videos .video.martin {
   background-image: url("../images/videos/martin.png");
 }
-section.section.videos-section .videos .video.nicole {
+section.section.gallery .videos .video.nicole {
   background-image: url("../images/videos/nicole.png");
 }
-section.section.videos-section .videos .video.brenda {
+section.section.gallery .videos .video.brenda {
   background-image: url("../images/videos/brenda.png");
 }
-section.section.videos-section .videos .video.agustin {
+section.section.gallery .videos .video.agustin {
   background-image: url("../images/videos/agustin.png");
 }
-section.section.videos-section .videos .video.valentina {
+section.section.gallery .videos .video.valentina {
   background-image: url("../images/videos/valentina.png");
 }
-section.section.videos-section .videos .video.sebastian {
+section.section.gallery .videos .video.sebastian {
   background-image: url("../images/videos/sebi.png");
 }
-section.section.videos-section .videos .video.santis {
+section.section.gallery .videos .video.santis {
   background-image: url("../images/videos/santis.png");
 }
-section.section.videos-section .videos .video.gonzalo {
+section.section.gallery .videos .video.gonzalo {
   background-image: url("../images/videos/gonzalo.png");
 }
-section.section.videos-section .videos .video.mariano {
+section.section.gallery .videos .video.mariano {
   background-image: url("../images/videos/mariano.png");
 }
-section.section.videos-section .videos .video.florencia {
+section.section.gallery .videos .video.florencia {
   background-image: url("../images/videos/florencia.png");
 }
-section.section.videos-section .videos .video.esteban {
+section.section.gallery .videos .video.esteban {
   background-image: url("../images/videos/esteban.png");
 }
-section.section.videos-section .videos .video.santiago {
+section.section.gallery .videos .video.santiago {
   background-image: url("../images/videos/santiago.png");
 }
-section.section.videos-section .videos .video.lucia {
+section.section.gallery .videos .video.lucia {
   background-image: url("../images/videos/lucia.png");
 }
-section.section.videos-section .videos .video.felipe {
+section.section.gallery .videos .video.felipe {
   background-image: url("../images/videos/felipe.png");
 }
-section.section.videos-section .videos .video.francisco {
+section.section.gallery .videos .video.francisco {
   background-image: url("../images/videos/francisco.png");
 }
-section.section.videos-section .videos .video.ricardo {
+section.section.gallery .videos .video.ricardo {
   background-image: url("../images/videos/ricardo.png");
 }
-section.section.videos-section .videos .video.pablo {
+section.section.gallery .videos .video.pablo {
   background-image: url("../images/videos/pablo.png");
 }
-section.section.videos-section .videos .video.video-large {
+section.section.gallery .videos .video.video-large {
   background-image: url("../images/videos/all.png");
   width: 516px;
   height: 320px;
 }
-section.section.democracy-network {
+section.section.news {
   background: #fff url("../images/bg-argentina.jpg") fixed;
+  height: 401px;
 }
-section.section.democracy-network .section-title .btn {
+section.section.news .section-title .btn {
   margin-top: 20px;
 }
-section.section.democracy-network .browser {
+section.section.news .browser {
   position: relative;
   overflow: visible;
   margin: auto;
@@ -479,43 +480,43 @@ section.section.democracy-network .browser {
   text-align: center;
   max-width: 800px;
 }
-section.section.democracy-network .browser .dot {
+section.section.news .browser .dot {
   position: absolute;
   width: 60px;
   height: 60px;
   display: block;
 }
-section.section.democracy-network .browser .dot.dot-problematicas {
+section.section.news .browser .dot.dot-problematicas {
   top: 75px;
   left: 116px;
 }
-section.section.democracy-network .browser .dot.dot-write {
+section.section.news .browser .dot.dot-write {
   top: 75px;
   right: 190px;
 }
-section.section.democracy-network .browser .dot.dot-profile {
+section.section.news .browser .dot.dot-profile {
   top: 74px;
   right: 66px;
 }
-section.section.democracy-network .browser .dot.dot-problematica {
+section.section.news .browser .dot.dot-problematica {
   top: 163px;
   left: 24px;
 }
-section.section.democracy-network .browser .dot.dot-propuestas {
+section.section.news .browser .dot.dot-propuestas {
   bottom: 138px;
   left: 18px;
 }
-section.section.democracy-network .browser .dot.dot-delegar {
+section.section.news .browser .dot.dot-delegar {
   bottom: 138px;
   right: 270px;
 }
-section.section.democracy-network .browser .popover {
+section.section.news .browser .popover {
   margin-top: 18px;
 }
-section.section.democracy-network .browser .popover p {
+section.section.news .browser .popover p {
   margin-bottom: 10px;
 }
-section.section.democracy-network .browser .mapMarkShape {
+section.section.news .browser .mapMarkShape {
   position: absolute;
   top: 24px;
   left: 24px;
@@ -528,7 +529,7 @@ section.section.democracy-network .browser .mapMarkShape {
 /* background: #ee2200 -webkit-gradient(radial, 5 3, 0, 5 5, 5, from(rgba(255,255,255,.3)), to(rgba(255,255,255,0)));			 */
   background: #ff2400;
 }
-section.section.democracy-network .browser .mapMarkGlow {
+section.section.news .browser .mapMarkGlow {
   position: absolute;
   top: 9px;
   left: 9px;
@@ -544,14 +545,14 @@ section.section.democracy-network .browser .mapMarkGlow {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
 }
-section.section.democracy-network .browser .mapMark.visited .mapMarkShape {
+section.section.news .browser .mapMark.visited .mapMarkShape {
   background-color: #936760;
 }
-section.section.democracy-network .browser .mapMark.visited .mapMarkGlow {
+section.section.news .browser .mapMark.visited .mapMarkGlow {
   -webkit-animation-name: 'blip2';
   border-color: transparent;
 }
-section.section.democracy-network .clearfix {
+section.section.news .clearfix {
   margin-top: 60px;
 }
 section.section.how-contribute {
@@ -592,48 +593,48 @@ section.section.argentina .argentina-content .what-we-need .btn:hover {
   background-color: #333;
   color: #fff;
 }
-section.section.who-we-are {
+section.section.members {
   background: #f9f9f9;
   padding: 80px 0 100px 0;
 }
-section.section.who-we-are .section-title {
+section.section.members .section-title {
   padding: 0 50px;
   margin-bottom: 40px;
   width: auto;
 }
-section.section.who-we-are .section-title h2 {
+section.section.members .section-title h2 {
   margin-bottom: 50px;
 }
-section.section.who-we-are .description {
+section.section.members .description {
   width: 48%;
   float: left;
   text-align: left;
 }
-section.section.who-we-are .description.left {
+section.section.members .description.left {
   margin-right: 4%;
 }
-section.section.who-we-are .members a {
+section.section.members .members a {
   width: 10%;
   float: left;
   display: block;
   opacity: 0.8;
   -webkit-transition: opacity 0.7s;
 }
-section.section.who-we-are .members a:hover {
+section.section.members .members a:hover {
   opacity: 1;
 }
-section.section.who-we-are .members a img {
+section.section.members .members a img {
   width: 100%;
   height: auto;
   display: block;
 }
-section.section.who-we-are .join-the-team {
+section.section.members .join-the-team {
   text-align: center;
   font-size: 20px;
   padding: 20px 20px 5px 20px;
   margin-top: 100px;
 }
-section.section.who-we-are .join-the-team .btn.btn-join {
+section.section.members .join-the-team .btn.btn-join {
   display: inline-block;
   border-color: #2cabed;
   background-color: #2cabed;
@@ -643,20 +644,20 @@ section.section.who-we-are .join-the-team .btn.btn-join {
   line-height: 20px;
   margin-top: -5px;
 }
-section.section.who-we-are .join-the-team .btn.btn-join:hover {
+section.section.members .join-the-team .btn.btn-join:hover {
   background-color: #2cabed;
   color: #fff;
 }
-section.section.who-we-are .modal {
+section.section.members .modal {
   width: 500px;
 }
-section.section.who-we-are .modal .modal-header {
+section.section.members .modal .modal-header {
   margin-bottom: 20px;
 }
-section.section.who-we-are .thanks-message {
+section.section.members .thanks-message {
   padding: 20px;
 }
-section.section.who-we-are .btn-sumate-ahora {
+section.section.members .btn-sumate-ahora {
   margin-top: 20px;
 }
 section.section.how-to-join {
@@ -824,7 +825,7 @@ footer .last-line {
   section.section.argentina .argentina-content .what-we-need .btn {
     margin: 30px 20px 0 30px;
   }
-  section.section.who-we-are .join-the-team span {
+  section.section.members .join-the-team span {
     display: block;
     margin-bottom: 30px;
   }
@@ -865,23 +866,23 @@ footer .last-line {
     font-size: 16px;
     line-height: 28px;
   }
-  section.section.splash .section-title {
+  section.section.home .section-title {
     width: auto;
     margin: 0;
     bottom: 0;
   }
-  section.section.splash .section-title h2 {
+  section.section.home .section-title h2 {
     font-size: 16px;
   }
-  section.section.splash .section-title .description {
+  section.section.home .section-title .description {
     font-size: 16px;
     line-height: 28px;
     width: auto;
   }
-  section.section.splash .section-title .btn {
+  section.section.home .section-title .btn {
     margin-bottom: 20px;
   }
-  section.section.splash .arrow-down {
+  section.section.home .arrow-down {
     display: none;
   }
   section.section.argentina .argentina-content {
@@ -890,40 +891,40 @@ footer .last-line {
   section.section.argentina .argentina-content .video-buenos-aires {
     width: auto;
   }
-  section.section.who-we-are {
+  section.section.members {
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  section.section.who-we-are .description {
+  section.section.members .description {
     float: none;
     width: 100%;
     margin: 0;
     text-align: center;
   }
-  section.section.who-we-are .join-the-team {
+  section.section.members .join-the-team {
     margin-top: 20px;
     line-height: 30px;
   }
-  section.section.who-we-are .join-the-team .btn.btn-join {
+  section.section.members .join-the-team .btn.btn-join {
     margin-left: 0;
   }
-  section.section.videos-section .modal {
+  section.section.gallery .modal {
     width: 90%;
   }
-  section.section.videos-section .modal iframe {
+  section.section.gallery .modal iframe {
     width: 100%;
   }
-  section.section.videos-section .modal a.btn.read-manifiesto {
+  section.section.gallery .modal a.btn.read-manifiesto {
     margin-top: 30px;
   }
-  section.section.democracy-network .browser {
+  section.section.news .browser {
     background-size: cover;
     width: auto;
   }
-  section.section.democracy-network .browser .dot {
+  section.section.news .browser .dot {
     display: none;
   }
-  section.section.who-we-are .members a {
+  section.section.members .members a {
     width: 20%;
   }
   section.section.argentina .argentina-content {
@@ -949,19 +950,19 @@ footer .last-line {
   body {
     color: none;
   }
-  section.section.splash .section-title {
+  section.section.home .section-title {
     padding: 20px 10px;
   }
-  section.section.splash .section-title .description {
+  section.section.home .section-title .description {
     font-size: 16px;
   }
-  section.section.splash .section-title .btn {
+  section.section.home .section-title .btn {
     margin-bottom: 20px;
   }
-  section.section.splash .share-twitter {
+  section.section.home .share-twitter {
     display: block;
   }
-  section.section.videos-section .videos .video {
+  section.section.gallery .videos .video {
     margin-right: 20px;
   }
 }
@@ -983,47 +984,47 @@ footer .last-line {
     font-size: 16px;
     margin-bottom: 0;
   }
-  section.section.splash .section-title {
+  section.section.home .section-title {
     padding: 20px 10px;
   }
-  section.section.splash .section-title h1 {
+  section.section.home .section-title h1 {
     font-size: 20px;
     margin: 0;
   }
-  section.section.splash .section-title img {
+  section.section.home .section-title img {
     height: 40px;
   }
-  section.section.splash .section-title .description {
+  section.section.home .section-title .description {
     margin-top: 0;
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 20px;
   }
-  section.section.splash .section-title .countdown-container strong {
+  section.section.home .section-title .countdown-container strong {
     display: block;
   }
-  section.section.who-we-are {
+  section.section.members {
     padding: 30px 0;
   }
-  section.section.who-we-are .section-title {
+  section.section.members .section-title {
     padding: 0 10px;
   }
-  section.section.who-we-are .section-title h2 {
+  section.section.members .section-title h2 {
     margin-bottom: 30px;
   }
-  section.section.who-we-are .tooltip {
+  section.section.members .tooltip {
     display: none;
   }
-  section.section.videos-section .videos {
+  section.section.gallery .videos {
     padding-left: 0;
   }
-  section.section.videos-section .videos .video {
+  section.section.gallery .videos .video {
     margin-right: 0;
   }
-  section.section.videos-section .modal {
+  section.section.gallery .modal {
     width: 90%;
   }
-  section.section.videos-section .modal iframe {
+  section.section.gallery .modal iframe {
     width: 100%;
     height: 200px;
   }

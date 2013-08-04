@@ -1,4 +1,26 @@
-head
-  title Bootstrap 101 Template
-  link(rel="stylesheet", href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css")
-  link(rel="stylesheet", href="/css/custom.css")
+header.site-header.clearfix
+	.navbar.navbar-inverse.navbar-fixed-top
+		.navbar-inner
+			.container
+				button.btn.btn-navbar(type='button', data-toggle='collapse', data-target='.nav-collapse')
+				span.icon-bar
+				span.icon-bar
+				span.icon-bar
+				h1
+					a(href='#home', title='Club Guay-Curú') Club Guay-Curú
+					.social
+				a.flaticon.social.facebook(target='_blank', href='http://facebook.com/partidodelared', title='')
+				a.flaticon.social.twitter(target='_blank', href='http://twitter.com/partidodelared', title='')
+				ul.nav.nav-collapse.collapse
+					li
+						a(href='#home', title='') Home
+					li
+						a(href='#members', title='') Socios
+					li
+						a(href='#events', title='') Eventos
+					li
+						a(href='#news', title='') Noticias
+					li
+						a(href='#gallery', title='') Galería
+					li.active
+						a(href='#collaborate', title='') Quiero ayudar!
