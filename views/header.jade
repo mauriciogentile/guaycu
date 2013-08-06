@@ -1,26 +1,34 @@
-header.site-header.clearfix
-	.navbar.navbar-inverse.navbar-fixed-top
-		.navbar-inner
-			.container
-				button.btn.btn-navbar(type='button', data-toggle='collapse', data-target='.nav-collapse')
-				span.icon-bar
-				span.icon-bar
-				span.icon-bar
+.row
+	.span1  
+	#header.span10
+		.row
+			.span4
 				h1
-					a(href='#home', title='Club Guay-Curú') Club Guay-Curú
-					.social
-				a.flaticon.social.facebook(target='_blank', href='http://facebook.com/partidodelared', title='')
-				a.flaticon.social.twitter(target='_blank', href='http://twitter.com/partidodelared', title='')
-				ul.nav.nav-collapse.collapse
-					li
-						a(href='#home', title='') Home
-					li
-						a(href='#members', title='') Socios
-					li
-						a(href='#events', title='') Eventos
-					li
-						a(href='#news', title='') Noticias
-					li
-						a(href='#gallery', title='') Galería
-					li.active
-						a(href='#collaborate', title='') Quiero ayudar!
+					a(href='http://je-veux-un-job.com/theme/thepaper/', data-original-title='') The Paper
+				p Just another WordPress site
+		.navbar
+			.navbar-inner
+				.container
+					a.btn.btn-navbar(data-toggle='collapse', data-target='.nav-collapse', data-original-title='')
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					.nav-collapse
+						ul.nav
+							li.active
+								a(href='http://je-veux-un-job.com/theme/thepaper/', data-original-title='')
+									i.icon-home.icon-white(data-original-title='')
+									| Home
+					.nav-collapse
+						ul.nav
+							li.page_item.page-item-2
+								a(href='http://je-veux-un-job.com/theme/thepaper/?page_id=2', data-original-title='') Sample Page
+					.nav-collapse
+						form#searchform(action='http://je-veux-un-job.com/theme/thepaper', method='get')
+							ul.nav.pull-right
+								li
+									i.icon-search(data-original-title='Type your search here & press enter')
+									input#s.span3(type='text', name='s', placeholder='Type your search here & press enter…')
+					//
+						/.nav-collapse 
+	.span1
