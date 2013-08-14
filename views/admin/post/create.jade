@@ -1,0 +1,27 @@
+extends ../../layout
+block content
+	.row
+		.span1
+			&nbsp;
+		.span8
+			div#create-post
+				form#post(action="create")
+					div
+						label(for="title") Título
+						input#title(name="title",type="text",required)
+					div
+						label(for="abstract") Resumen
+						textarea#abstract.resumen(name="abstract",type="text",required)
+					div
+						label(for="body") Articulo
+						textarea#body(name="body",type="text",required)
+					div
+						label(for="author") Autor
+						input#author(name="author",type="text",required)
+					div
+						label(for="image-url") Imagen Url
+						input#image-url(name="image-url",type="text",required)
+					div
+						input(name="submit",type="submit",value="Enviar")
+block scripts
+	script(type='text/javascript',src="/js/post.js")

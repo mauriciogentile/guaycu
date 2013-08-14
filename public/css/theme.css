@@ -1,0 +1,125 @@
+body{padding: 10px 0; font-family:  "Times New Roman", Times, "New Century Schoolbook", serif;  }
+p{font-family:  "Times New Roman", Times, "New Century Schoolbook", serif; text-align: justify;}
+.col{border-bottom: 1px solid #333;padding-bottom: 10px;}
+#content,#header {
+    padding: 10px;
+    margin-left: 20px; 
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);  
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);  
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);  position: relative;
+    background-color: #fff;  
+    background-image: url(../images/bg.jpg);
+}
+.span1 {
+    margin-left: 20px !important
+}
+h1 {
+    text-align: center;
+    padding: 10px 0
+}
+.span8 {
+    background: url(../images/line.gif) repeat-y center center
+}
+#main {
+    background: url(../images/line.gif) repeat-y 814px center
+}
+ #content:before, #content:after  {  
+    position: absolute;  
+    width: 40%;  
+    height: 10px;  
+    content: ' ';  
+    left: 12px;  
+    bottom: 20px;  
+    background: transparent;  
+    -webkit-transform: skew(-5deg) rotate(-5deg);  
+    -moz-transform: skew(-5deg) rotate(-5deg);  
+    -ms-transform: skew(-5deg) rotate(-5deg);  
+    -o-transform: skew(-5deg) rotate(-5deg);  
+    transform: skew(-5deg) rotate(-5deg);  
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);  
+    -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);  
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);  
+    z-index: -1;  
+}  
+#content:after  {  
+    left: auto;  
+    right: 12px;  
+    -webkit-transform: skew(5deg) rotate(5deg);  
+    -moz-transform: skew(5deg) rotate(5deg);  
+    -ms-transform: skew(5deg) rotate(5deg);  
+    -o-transform: skew(5deg) rotate(5deg);  
+    transform: skew(5deg) rotate(5deg);  
+}  
+
+.navbar .nav > li > a:hover{color: #333}
+@media (max-width: 979px) {
+  .span8 {
+      background:none
+  }
+  .navbar .nav > li > a:hover{color: #fff}
+  body{padding:0 5px !important}
+  #modalImg{width:100%;}
+}
+
+.imgPress,.span2.thumbnail{
+    margin:  5px !important;
+}
+.separator{height: 10px; border-bottom: 1px solid #333;border-top: 1px solid #333}
+
+#header{border-bottom: 1px solid #333;}
+.navbar-inner {background:none;
+    border-radius:0;
+    box-shadow: none;
+    padding-left: 0;
+    padding-right: 0;
+    bottom: 0
+}
+.navbar {margin: 20px 0 0 0 }
+.navbar-inner{filter:0}
+.navbar .nav > li > a{text-shadow: none}
+#header p{float: left}
+#header h1 a{color: #333;font-size: 80px;text-align: left;text-decoration: none}
+#header p{font-size: 32px;color: #FF5F57; line-height: 1;}
+a,a:hover{color: #FF5F57}
+a.share{display: block;width: 31px ; height: 31px; background: url(../images/share.png) 0 bottom; float: left; margin: 0 5px}
+a.share:hover{text-decoration: none;background-position: 0 0}
+a.share.tt{ background-position: 62px 31px}
+a.share.tt:hover{background-position: 62px 0; }
+a.share.rss{background-position: 30px 31px ;}
+a.share.rss:hover{background-position: 30px 0   }
+.footer{border-top: 1px solid #333; margin-top: 10px;padding-top: 10px}
+input,textarea{  font-family: "Times New Roman",Times,"New Century Schoolbook",serif;}
+input.span3,textarea.span3 {background: transparent;border: none; box-shadow: none;border-bottom: 1px dashed #333;border-radius: 0}
+#article{background: none}
+.form-horizontal .controls{margin-left: 0px}
+#myModal{display: none;position: absolute}
+.modal-body {max-height:  none}
+.modal{width: auto}
+#modalImg  {margin-left: 0px !important;margin: 0 auto;float: none}
+input.span3.error,textarea.span3.error{border-color: #FF5F57;color :#FF5F57 }
+label.error{display: none !important}
+.navbar .nav .current_page_item > a, .navbar .nav .current_page_item > a:hover {
+    background-color: #222222;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+li.active i.icon-home  {background-image: url("../bootstrap/img/glyphicons-halflings-white.png")}
+li i.icon-home  {background-image: url("../bootstrap/img/glyphicons-halflings.png")} 
+#sidebar .widget{
+    border-bottom: 1px solid #333
+}
+#sidebar .widget h2{line-height: 1;padding-top: 10px}
+.next-posts{float: left}
+.prev-posts{float: right}
+.navigation{width: 100%;margin-top: -10px}
+#footer{padding-top: 8px}
+a.share span{display: none}
+.meta{padding-bottom: 10px}
+.commentlist{padding-top: 20px}
+.comment-body{padding-bottom: 10px ; border-bottom: 1px dashed #ccc;margin-bottom: 10px}
+.noBg{background: none}
+.depth-1{border-left: 3px solid #ccc;margin-left: -2px ; padding-left: 2px;}
+.depth-1:hover{border-color: #FF5F57}
+blockquote p {font-size: 13px}
+.post{float:left;clear:both}
+.hide{display:none}

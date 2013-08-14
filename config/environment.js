@@ -1,6 +1,7 @@
 var path = require("path");
+var express = require("express");
 
-module.exports = function(app, express) {
+module.exports = function(app) {
     app.configure(function() {
         var views = path.join(__dirname + "/../views");
         var pub = path.join(__dirname + "/../public");
