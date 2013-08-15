@@ -8,13 +8,13 @@ block content
 				form#post(action="create")
 					div
 						label(for="title") Título
-						input#title(name="title",type="text",required)
+						input#title(name="title",type="text", placeholder="título del post",required)
 					div
 						label(for="abstract") Resumen
-						textarea#abstract.resumen(name="abstract",type="text",required)
+						textarea#abstract.resumen(name="abstract",type="text", placeholder="resumen del post",required)
 					div
 						label(for="body") Articulo
-						textarea#body(name="body",type="text",required)
+						textarea#body(name="body",type="text",placeholder="artículo principal",required)
 					div
 						label(for="author") Autor
 						input#author(name="author",type="text",required)

@@ -1,0 +1,23 @@
+extends ../../layout
+block content
+	.row
+		.span1
+			&nbsp;
+		.span8
+			div#posts
+				table.table.table-striped.table-bordered.table-condensed
+					thead
+						tr
+							th Título
+							th Author
+							th Creado Por
+							th Fecha Publicación
+					tbody
+						each post, i in posts
+							tr
+								td #{post.title}
+								td #{post.author}
+								td #{post.createdBy}
+								td #{post.publishedAt}
+block scripts
+	script(type='text/javascript',src="/js/post.js")
