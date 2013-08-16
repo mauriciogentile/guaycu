@@ -4,6 +4,9 @@ $(function() {
 		post.fail(function(err) {
 			console.log(err);
 		});
+		post.done(function(err) {
+			location.reload();
+		});
 		return false;
 	});
 });

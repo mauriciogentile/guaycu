@@ -1,12 +1,25 @@
 var path = require("path");
 var express = require("express");
+var env = require("./env");
+
+var clientErrorHandler = function(err, req, res, next) {
+	if (req.xhr) {
+		res.send(500, { error: err });
+	}
+	else {
+		next(err);
+  	}
+};
 
 module.exports = function(app) {
     app.configure(function() {
-        var views = path.join(__dirname + "/../views");
-        var pub = path.join(__dirname + "/../public");
+    	var views = path.join(__dirname + "/../views");
+    	var pub = path.join(__dirname + "/../public");
         app.use(express.logger());
+        app.use(express.bodyParser());
         app.use(app.router);
+        app.use(clientErrorHandler);
+        app.set('mongoUrl', env.mongoUrl);
         app.set('views', views);
         app.set('view engine', 'jade');
         app.use(express.static(pub));

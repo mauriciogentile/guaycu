@@ -1,15 +1,14 @@
 var express = require("express");
 var jade = require("jade");
-var environment = require('./config/environment.js');
+var config = require('./config');
+var models = require('./lib/models');
 //var routes = require('./config/routes.js');
 var controllers = require("./lib/controllers");
 
 var app = express();
 
-environment(app);
-//routes(app);
-
-require("./lib/models");
+config(app);
+models(app);
 
 controllers(app);
 
