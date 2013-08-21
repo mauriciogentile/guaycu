@@ -12,7 +12,8 @@
     "express": "~3.0.6",
     "jade": "~0.27.7",
     "path": "~0.4.9",
-    "mongoose": "~3.6.17"
+    "mongoose": "~3.6.17",
+    "nodev": "~0.7.3"
   },
   "gitHead": "2519e9362c85f753640188992dd3d6326635103e",
   "readmeFilename": "README.md",

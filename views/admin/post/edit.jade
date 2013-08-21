@@ -8,8 +8,8 @@ block content
 				form#post(action="create")
 					fieldset
 						div.control-group 
-							label.control-label(for="title") Título
-							input#title(name="title",type="text", placeholder="título del post",required)
+							label.control-label(for="title") #{post.title}
+							input#title(name="title",type="text", placeholder="título del post",required,value="{post.title}")
 						div
 							label(for="abstract") Resumen
 							textarea#abstract.resumen(name="abstract",type="text", placeholder="resumen del post",required)

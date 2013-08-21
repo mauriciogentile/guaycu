@@ -12,6 +12,7 @@ block content
 							th Author
 							th Creado Por
 							th Fecha Publicación
+							th Editar/Borrar
 					tbody
 						each post, i in posts
 							tr
@@ -19,5 +20,9 @@ block content
 								td #{post.author}
 								td #{post.createdBy}
 								td #{post.publishedAt}
+								td
+									a(href="edit/" + "#{post.id}") Editar
+									span &nbsp;
+									a(href="admin/delete") Borrar
 block scripts
-	script(type='text/javascript',src="/js/post.js")
+	//script(type='text/javascript',src="/js/post.js")
