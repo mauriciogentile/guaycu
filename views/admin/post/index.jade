@@ -12,7 +12,10 @@ block content
 							th Author
 							th Creado Por
 							th Fecha Publicación
-							th Editar/Borrar
+							th
+								span Editar
+								span &nbsp;&nbsp;
+								span Borrar
 					tbody
 						each post, i in posts
 							tr
@@ -24,5 +27,6 @@ block content
 									a(href="edit/" + "#{post.id}") Editar
 									span &nbsp;
 									a(href="admin/delete") Borrar
+				input(id="create",type="button",value="Crear",class="btn btn-large btn-primary")
 block scripts
-	//script(type='text/javascript',src="/js/post.js")
+	script(type='text/javascript',src="/js/post.js")

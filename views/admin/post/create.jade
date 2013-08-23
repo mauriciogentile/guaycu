@@ -4,8 +4,8 @@ block content
 		.span1
 			&nbsp;
 		.span8
-			div#create-post
-				form#post(action="create")
+			div#create-post.form
+				form#post(action="create",method="post")
 					fieldset
 						div.control-group 
 							label.control-label(for="title") Título
@@ -24,5 +24,6 @@ block content
 							input#image-url(name="image-url",type="text",required)
 						div
 							input(name="submit",type="submit",value="Enviar",class="btn btn-large btn-primary")
+							input(id="cancel-create",type="button",value="Cancelar",class="btn btn-large btn-primary")
 block scripts
-	//script(type='text/javascript',src="/js/post.js")
+	script(type='text/javascript',src="/js/post.js")
