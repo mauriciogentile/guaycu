@@ -24,9 +24,8 @@ block content
 								td #{post.createdBy}
 								td #{post.publishedAt}
 								td
-									a(href="edit/" + "#{post.id}") Editar
-									span &nbsp;
-									a(href="admin/delete") Borrar
+									a.btn(href="edit/" + "#{post.id}") Editar
+									a.btn(href="delete/" + "#{post.id}") Borrar
 				input(id="create",type="button",value="Crear",class="btn btn-large btn-primary")
 block scripts
 	script(type='text/javascript',src="/js/post.js")
