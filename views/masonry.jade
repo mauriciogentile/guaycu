@@ -1,23 +1,25 @@
 #masonry.row.masonry(style='position: relative; height: 892px; overflow: hidden;')
-	#post-20.span4.col.masonry-brick(style='position: absolute; top: 0px; left: 0px;')
-		h1
-			a(href='http://je-veux-un-job.com/theme/thepaper/?p=20', data-original-title='') Sit amet, consectetur adipiscing elit. Fusce nec enim mi, ut egestas mi
-		.meta
-			em
-				i.icon-calendar(data-original-title='')
-				| Posted on:
-			| April 9th, 2012
-			em by
-			| admin
-			a.comments-link(href='http://je-veux-un-job.com/theme/thepaper/?p=20#respond', data-original-title='Comment on Sit amet, consectetur adipiscing elit. Fusce nec enim mi, ut egestas mi') No Comments
-		.entry
-			a.thumbnail.span2.imgPress(href='http://je-veux-un-job.com/theme/thepaper/wp-content/uploads/2012/04/5-199x300.jpg', data-original-title='Click to enlarge')
-				img(src='http://je-veux-un-job.com/theme/thepaper/wp-content/uploads/2012/04/5-199x300.jpg')
-			p
-				| Vivamus feugiat pretium orci, vel auctor quam tristique sed. Aenean quis posuere purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris id turpis enim. Aenean dictum ornare eros. Suspendisse enim odio, pretium non iaculis elementum, dictum a lorem. Ut tempus dolor sed ante mollis viverra.  Vivamus quis lacus nulla, sed [...]
-		.postmetadata
-			i.icon-tag(data-original-title='')
-			| Posted in
-			a(href='http://je-veux-un-job.com/theme/thepaper/?cat=1', rel='category', data-original-title='View all posts in Uncategorized') Uncategorized
-			| |
-			a(href='http://je-veux-un-job.com/theme/thepaper/?p=20#respond', data-original-title='Comment on Sit amet, consectetur adipiscing elit. Fusce nec enim mi, ut egestas mi') No Comments »
+	each post in posts
+		#post-20.span4.col.masonry-brick(style='position: absolute; top: 0px; left: 0px;')
+			h1
+				a(href='/post/#{post.id}', data-original-title='') #{post.title}
+			.meta
+				em
+					i.icon-calendar(data-original-title='')
+					| Posted on&nbsp;
+				| #{post.publishedAt || new Date()} &nbsp;
+				em
+				| by&nbsp;
+				| #{post.author} &nbsp;
+				a.comments-link(href='', data-original-title='#{post.title}') Sin comentarios aún
+			.entry
+				a.thumbnail.span2.imgPress(href='#{post.imageUrl}', data-original-title='Click para agrandar')
+					img(src='#{post.imageUrl}')
+				p
+					| #{post.abstract}
+			.postmetadata
+				i.icon-tag(data-original-title='')
+				| Posted in
+				a(href='http://je-veux-un-job.com/theme/thepaper/?cat=1', rel='category', data-original-title='View all posts in Uncategorized') Uncategorized
+				| |
+				a(href='http://je-veux-un-job.com/theme/thepaper/?p=20#respond', data-original-title='Comment on Sit amet, consectetur adipiscing elit. Fusce nec enim mi, ut egestas mi') No Comments »

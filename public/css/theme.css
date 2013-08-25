@@ -1,5 +1,5 @@
-body{padding: 10px 0; font-family:  "Times New Roman", Times, "New Century Schoolbook", serif;  }
-p{font-family:  "Times New Roman", Times, "New Century Schoolbook", serif; text-align: justify;}
+body{padding: 10px 0; font:  13px/1.231 arial,helvetica,clean,sans-serif;  }
+p{font:  13px/1.231 arial,helvetica,clean,sans-serif; text-align: justify;}
 .col{border-bottom: 1px solid #333;padding-bottom: 10px;}
 #content,#header {
     padding: 10px;
@@ -88,7 +88,7 @@ a.share.tt:hover{background-position: 62px 0; }
 a.share.rss{background-position: 30px 31px ;}
 a.share.rss:hover{background-position: 30px 0   }
 .footer{border-top: 1px solid #333; margin-top: 10px;padding-top: 10px}
-input,textarea{  font-family: "Times New Roman",Times,"New Century Schoolbook",serif;}
+input,textarea{  font-family: "Cambria",Times,"New Century Schoolbook",serif;}
 input.span3,textarea.span3 {background: transparent;border: none; box-shadow: none;border-bottom: 1px dashed #333;border-radius: 0}
 #article{background: none}
 .form-horizontal .controls{margin-left: 0px}

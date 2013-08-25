@@ -5,27 +5,27 @@ block content
 			&nbsp;
 		.span8
 			div#posts
-				table.table.table-striped.table-bordered.table-condensed
+				table.table.table-striped.table-condensed
 					thead
 						tr
+							th
 							th Título
 							th Author
 							th Creado Por
 							th Fecha Publicación
 							th
-								span Editar
-								span &nbsp;&nbsp;
-								span Borrar
 					tbody
 						each post, i in posts
 							tr
+								td
+									img(src="#{post.imageUrl}",width="40")
 								td #{post.title}
 								td #{post.author}
 								td #{post.createdBy}
 								td #{post.publishedAt}
 								td
-									a.btn(href="edit/" + "#{post.id}") Editar
-									a.btn(href="delete/" + "#{post.id}") Borrar
+									a.btn.btn-info(href="edit/" + "#{post.id}") Editar
+									a.btn.btn-info(href="delete/" + "#{post.id}") Borrar
 				input(id="create",type="button",value="Crear",class="btn btn-large btn-primary")
 block scripts
 	script(type='text/javascript',src="/js/post.js")
