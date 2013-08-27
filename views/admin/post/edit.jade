@@ -7,26 +7,28 @@ block content
 			div#create-post.form
 				form#post(action="../edit",method="post")
 					fieldset
-						input#id(name="id",type="hidden",value="#{_id}",required)
+						input#id(name="id",type="hidden",value="#{post._id}",required)
 						div.control-group
 							label.control-label(for="title") Título
-							input#title(name="title",type="text",value="#{title}", placeholder="título del post",required)
+							input#title(name="title",type="text",value="#{post.title}", placeholder="título del post",required)
 						div
 							label(for="abstract") Resumen
 							textarea#abstract.resumen(name="abstract",type="text",placeholder="resumen del post",required)
-								| #{abstract}
+								| #{post.abstract}
 						div
 							label(for="body") Artículo
 							textarea#body(name="body",type="text",placeholder="artículo principal",required)
-								| #{body}
+								| #{post.body}
 						div
 							label(for="author") Autor
-							input#author(name="author",type="text",value="#{author}",placeholder="autor",required)
+							input#author(name="author",type="text",value="#{post.author}",placeholder="autor",required)
 						div
 							label(for="image-url") Url de Imagen
-							input#image-url(name="imageUrl",value="",type="text",value="#{imageUrl}",placeholder="link de la imagen (ej. http://fb.com/foto.jpg)",required)
+							input#image-url(name="imageUrl",value="",type="text",value="#{post.imageUrl}",placeholder="link de la imagen (ej. http://fb.com/foto.jpg)",required)
 						div
 							input(name="submit",type="submit",value="Enviar",class="btn btn-large btn-primary")
 							input(id="cancel-edit",type="button",value="Cancelar",class="btn btn-large btn-primary")
+		.span2
+			include ../../side
 block scripts
 	script(type='text/javascript',src="/js/post.js")

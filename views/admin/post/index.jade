@@ -27,5 +27,7 @@ block content
 									a.btn.btn-info(href="edit/" + "#{post.id}") Editar
 									a.btn.btn-info(href="delete/" + "#{post.id}") Borrar
 				input(id="create",type="button",value="Crear",class="btn btn-large btn-primary")
+		.span2
+			include ../../side
 block scripts
 	script(type='text/javascript',src="/js/post.js")
