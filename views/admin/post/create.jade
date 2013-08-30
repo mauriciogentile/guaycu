@@ -3,7 +3,7 @@ block content
 	.row
 		.span1
 			&nbsp;
-		.span8
+		#article.span8
 			div#create-post.form
 				form#post(action="create",method="post")
 					fieldset
@@ -25,7 +25,5 @@ block content
 						div
 							input(name="submit",type="submit",value="Enviar",class="btn btn-large btn-primary")
 							input(id="cancel-create",type="button",value="Cancelar",class="btn btn-large btn-primary")
-		.span2
-			include ../../side
 block scripts
 	script(type='text/javascript',src="/js/post.js")

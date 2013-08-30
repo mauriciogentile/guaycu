@@ -6,20 +6,20 @@
 			.meta
 				em
 					i.icon-calendar(data-original-title='')
-					| Publicado el &nbsp;
-				| #{post.publishedAtFormatted} &nbsp;
+					| Publicado el&nbsp;
+				| #{post.publishedAtFormatted}&nbsp;
 				em
-				| by&nbsp;
-				| #{post.author} &nbsp;
+				| by
+				| #{post.author}&nbsp;
 				a.comments-link(href='', data-original-title='#{post.title}') Sin comentarios aún
 			.entry
 				a.thumbnail.span2.imgPress(href='#{post.imageUrl}', data-original-title='Click para agrandar')
 					img(src='#{post.imageUrl}')
 				p
-					| #{post.abstract}
+					!{post.abstract}
 			.postmetadata
 				i.icon-tag(data-original-title='')
-				| Posted in
+				| Posted in&nbsp;
 				a(href='http://je-veux-un-job.com/theme/thepaper/?cat=1', rel='category', data-original-title='View all posts in Uncategorized') Uncategorized
-				| |
+				|&nbsp;|&nbsp;
 				a(href='http://je-veux-un-job.com/theme/thepaper/?p=20#respond', data-original-title='Comment on Sit amet, consectetur adipiscing elit. Fusce nec enim mi, ut egestas mi') No Comments »
