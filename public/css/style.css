@@ -1,6 +1,6 @@
-@import url("bootstrap/bootstrap.css");
+@import url("bootstrap.css");
 @import url("theme.css");
-@import url("bootstrap/bootstrap-responsive.css");
+@import url("bootstrap-responsive.css");
 
 #post textarea {
 	width: 100%;

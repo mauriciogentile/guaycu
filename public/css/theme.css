@@ -8,7 +8,7 @@ p{font:  13px/1.231 arial,helvetica,clean,sans-serif; text-align: justify;}
     -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);  
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);  position: relative;
     background-color: #fff;  
-    background-image: url(../images/bg.jpg);
+    background-image: url(/img/bg.jpg);
 }
 .span1 {
     margin-left: 20px !important
@@ -18,10 +18,10 @@ h1 {
     padding: 10px 0
 }
 .span8 {
-    background: url(../images/line.gif) repeat-y center center
+    background: url(/img/line.gif) repeat-y center center
 }
 #main {
-    background: url(../images/line.gif) repeat-y 814px center
+    background: url(/img/line.gif) repeat-y 814px center
 }
  #content:before, #content:after  {  
     position: absolute;  
@@ -81,7 +81,7 @@ h1 {
 #header h1 a{color: #333;font-size: 80px;text-align: left;text-decoration: none}
 #header p{font-size: 32px;color: #FF5F57; line-height: 1;}
 a,a:hover{color: #FF5F57}
-a.share{display: block;width: 31px ; height: 31px; background: url(../images/share.png) 0 bottom; float: left; margin: 0 5px}
+a.share{display: block;width: 31px ; height: 31px; background: url(/img/share.png) 0 bottom; float: left; margin: 0 5px}
 a.share:hover{text-decoration: none;background-position: 0 0}
 a.share.tt{ background-position: 62px 31px}
 a.share.tt:hover{background-position: 62px 0; }
@@ -103,8 +103,8 @@ label.error{display: none !important}
     color: #FFFFFF;
     text-decoration: none;
 }
-li.active i.icon-home  {background-image: url("../bootstrap/img/glyphicons-halflings-white.png")}
-li i.icon-home  {background-image: url("../bootstrap/img/glyphicons-halflings.png")} 
+li.active i.icon-home  {background-image: url("/img/glyphicons-halflings-white.png")}
+li i.icon-home  {background-image: url("/img/glyphicons-halflings.png")} 
 #sidebar .widget{
     border-bottom: 1px solid #333
 }
