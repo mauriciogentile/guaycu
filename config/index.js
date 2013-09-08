@@ -24,6 +24,7 @@ module.exports = function(app) {
         console.log(env.mongoUrl);
         app.set('mongoUrl', env.mongoUrl);
         app.set('port', env.port);
+        app.set('ip', env.ip);
         app.set('views', views);
         app.set('view engine', 'jade');
         app.use(express.static(pub));
