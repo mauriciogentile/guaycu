@@ -1,24 +1,24 @@
 {
   "name": "guaycu",
-  "subdomain": "maclaurin.kanto",
   "scripts": {
-    "start": "app.js"
+    "start": "server.js"
   },
   "version": "0.0.1-9",
   "engines": {
-    "node": "0.8.x"
+    "node": ">=0.10.x",
+    "npm": ">=1.0.0"
   },
   "dependencies": {
     "express": "~3.0.6",
     "jade": "~0.27.7",
     "path": "~0.4.9",
     "mongoose": "~3.6.17",
-    "nodev": "~0.7.3"
+    "moment": "~2.1.0"
   },
   "gitHead": "2519e9362c85f753640188992dd3d6326635103e",
   "readmeFilename": "README.md",
   "description": "guaycu\r ======",
-  "main": "app.js",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mauriciogentile/guaycu"

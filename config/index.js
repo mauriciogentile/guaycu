@@ -2,6 +2,8 @@ var path = require("path");
 var express = require("express");
 var env = require("./env");
 
+console.log(env);
+
 var clientErrorHandler = function(err, req, res, next) {
 	if (req.xhr) {
 		res.send(500, { error: err });
@@ -19,7 +21,9 @@ module.exports = function(app) {
         app.use(express.bodyParser());
         app.use(app.router);
         app.use(clientErrorHandler);
+        console.log(env.mongoUrl);
         app.set('mongoUrl', env.mongoUrl);
+        app.set('port', env.port);
         app.set('views', views);
         app.set('view engine', 'jade');
         app.use(express.static(pub));
