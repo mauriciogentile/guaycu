@@ -15,7 +15,6 @@
     "mongoose": "~3.6.17",
     "moment": "~2.1.0"
   },
-  "gitHead": "2519e9362c85f753640188992dd3d6326635103e",
   "readmeFilename": "README.md",
   "description": "guaycu\r ======",
   "main": "server.js",
