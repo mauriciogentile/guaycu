@@ -1,5 +1,3 @@
-#!/bin/env node
-
 var express = require("express");
 var jade = require("jade");
 var config = require('./config');
