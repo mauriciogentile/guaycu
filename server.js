@@ -20,4 +20,4 @@ controllers(app);
 
 console.log("starting app on port " + app.get('port') + "...");
 
-app.listen(app.get('port'), app.get('ip'));
+app.listen(app.get('port'));
