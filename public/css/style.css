@@ -32,3 +32,11 @@ body {
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 }
+
+div#content.span8 {
+	width: 970px;
+}
+
+#posts {
+	width: 900px;
+}

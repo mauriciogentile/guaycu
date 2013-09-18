@@ -1,7 +1,7 @@
 body{padding: 10px 0; font:  13px/1.231 arial,helvetica,clean,sans-serif;  }
 p{font:  13px/1.231 arial,helvetica,clean,sans-serif; text-align: justify;}
 .col{border-bottom: 1px solid #333;padding-bottom: 10px;}
-#content,#header {
+#content,#header, .content {
     padding: 10px;
     margin-left: 20px; 
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);  
