@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "express": "3.1.X",
-    "jade": "~0.27.7",
+    "ejs": "*",
     "path": "~0.4.9",
     "mongoose": "~3.6.17",
     "moment": "~2.1.0"

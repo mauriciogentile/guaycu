@@ -26,7 +26,7 @@ module.exports = function(app) {
         app.set('port', env.port);
         app.set('ip', env.ip);
         app.set('views', views);
-        app.set('view engine', 'jade');
+        app.set('view engine', 'ejs');
         app.use(express.static(pub));
         
         console.log("views in:" + views);
