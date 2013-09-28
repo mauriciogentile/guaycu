@@ -3,6 +3,8 @@ body
   background-image: url("/img/guaycu.jpg"); 
   background-repeat:no-repeat;
   background-attachment:fixed;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 div.oc-wrapper
