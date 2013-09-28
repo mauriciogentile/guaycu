@@ -1,23 +1,39 @@
 body
 {
-  background-image: url("/img/background.jpg");
-  background-repeat:repeat;
-  background-attachment:fixed;
-  margin-left: 150px;
-  margin-right: 150px;
+  background-image: url("/img/background.png");
+  background-repeat:no-repeat;
+  background-color: black;
+  background-size: 1500px 1676px;
+  /*background-attachment:fixed;*/
+  margin-left: 200px;
+  margin-right: 270px;
+}
+
+div.container
+{
+  background-color: white;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+img
+{
+  border-radius: 5px;
 }
 
 div.oc-wrapper
 {
-  background-color: white;
+  background-color: transparent;
   margin-left: 70px;
   margin-right: 70px;
 }
 
-.navbar-default
+.navbar-default, .navbar-default div
 {
-  border-bottom-style: solid;
-border-bottom-color: red;
+  background-color: transparent;
+  border-color: transparent;
+  /*border-bottom-style: solid;
+  border-bottom-color: red;*/
 }
 
 .navbar-nav
@@ -34,4 +50,9 @@ border-bottom-color: red;
 hr
 {
   border-color: red;
+}
+
+div.row
+{
+  margin-bottom: 50px;
 }
